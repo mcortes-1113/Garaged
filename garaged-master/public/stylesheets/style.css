@@ -1,0 +1,289 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+body {
+  background-color:#D1AB30;
+}
+
+#loginPage1{
+  background-color:#0C053C;
+}
+#loginPage{
+  background-color:#3B4A60;
+}
+
+#findUnitsModalInner{
+  background-color:#9F9E9E;
+  border-style: solid;
+  border-color: green;
+  box-sizing: content-box;  
+  border: 20px #3B4A60;
+}
+
+.modal-content{
+  font-weight: bold;
+  margin-top: 150px;
+  Display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#D1AB30;
+}
+
+
+.carousel-item > img {
+  max-height: 860px;
+  justify-content: center;
+}
+
+.carousel-caption{
+  color: rgb(255, 201, 24);
+  font-weight: bold;
+  top: 50px;
+  left: 0;
+  min-width: 100%;
+  min-height: 400px;
+}
+
+
+.carousel-inner {
+  font-size: 50px;
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+
+}
+#garageIcons{
+  display:inline-block;
+  margin-right: 10px;
+  background-color: #dbdbdb;
+}
+
+
+
+#optionsFH {
+  margin:auto; 
+  float: none; 
+  margin-bottom: 10px; 
+  border-radius: 2rem;
+  background-color: #dadada;
+  justify-content: center;
+}
+
+
+.carder {
+  float: none; 
+  border-radius: 2rem;
+  background-color: #dadada;
+  justify-content: center;
+  width: 24rem;
+}
+
+.card-header {
+  background-color: #0C053C;
+}
+
+.card-body {
+  background-color: #dadada;
+}
+
+#topnav {
+  background-color: #0C053C;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: rgb(190, 174, 35);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  z-index: 2;
+  top: -10px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  position:relative;
+  left: 56%;
+  margin-left: -100px !important;  /* 50% of your logo width */
+  display: block;
+  font-weight: bold;
+}
+
+.topnav-left {
+  position: relative;
+  right: -33%;
+  margin-left: -100px !important;  /* 50% of your logo width */
+  display: block;
+  font-weight: bold;
+}
+
+
+#jumboTwo{
+  margin: 20px;
+}
+
+#h1Size{
+  font-size: 6vw;
+  text-shadow: 5px 5px rgb(26, 26, 26);
+
+}
+#pSize{
+  font-size: 2.5vw;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+  }
+  #topnav{
+    padding-left: 0px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .modal-content{
+  margin-left: 25px;
+  }
+  .carder {
+    border-radius: 2rem;
+    background-color: #dadada;
+    justify-content: center;
+  }
+
+  .card{
+    width: 8rem;
+    font-size: 10px;
+    margin-top: 10px;
+
+  }
+ 
+  .topnav-right {
+    font-size: 8px;
+    position:relative;
+    left: 0%;
+    margin-left: 100px !important;  /* 50% of your logo width */
+    display: contents;
+    float: none;  }
+
+  a.navbar-brand{
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  
+  .topnav-left {
+    position: relative;
+    display: contents;
+    float: none; 
+  }
+  .topnav-centered a, .topnav-centered a > img {
+    margin-right: 5px;
+    display: inline-block;
+    justify-content: center;
+    position: static;
+    margin-left: 0px !important;
+    margin-top: -5px !important;
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+
+.welcomeText{
+  font-size: 3.5rem;
+}
+
+.largeText{
+  font-size: 3.5rem;
+}
+
+.card-img-top{
+  min-height: 200px;
+}
+
+.listImg{
+  width: 150px;
+}
+
+@media screen and (max-width: 674px) {
+  .welcomeText {
+    font-size: 2rem !important;
+    font-size: 3.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .indexPText{
+    font-size: 0.75rem !important;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+  }
+
+  .largeText{
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .modal-content {
+    width: 85%; 
+  }
+  #h1Size{
+    top: -50px;
+  }
+  #pSize{
+    top: -50px;
+  }
+
+  .carousel-caption{
+    top: 0px;
+  }
+  
+
+  };
+
+  @media screen and (max-width: 1540) {
+    .topnav-left {
+      left: 30%;
+     
+    }
+  }
+  
+  @media screen and (min-width: 1050) {
+    .topnav-left {
+      left: 15%;
+    }
+  }
